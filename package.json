@@ -18,7 +18,7 @@
   "scripts": {
     "clean": "rimraf browser dist coverage",
     "compile": "tsc",
-    "build": "tsc",
+    "install": "npm run prepublishOnly",
     "pretest": "npm run compile",
     "test": "npm run testonly --",
     "posttest": "npm run lint",
